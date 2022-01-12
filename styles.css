@@ -1,0 +1,13 @@
+p{
+    font-family: "Times New Roman";
+    font-size: 18px;
+    color: blue;
+    padding: 10px;
+    alignment: revert;
+}
+h1{
+    font-family: Algerian;
+    font-size: 30px;
+    alignment: center;
+    color: red;
+}
