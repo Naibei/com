@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <style>
+        h1{
+         font-size: 25px;
+            font-family: "cursive";
+            text-align: center;
+       text-underline: red;
+
+        }
+        div{
+            background-color: wheat;
+            border-style: inset;
+        }
+        h2{
+text-align: center;
+            text-decoration: mediumspringgreen;
+        }
+p{
+    font-size: 20px;
+    color: green;
+    text-align:-webkit-center;
+}
+
+    .Document{
+        text-align: center;
+
+    }
+h3{
+    font-variant-caps: normal;
+    background-color: mistyrose;
+
+}
+.note{
+    font-style: italic;
+    font-family: cursive;
+    text-underline: red;
+    text-underline-style: double;
+}
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>REGISTRATION FORM</title>
+</head>
+<body>
+<div class="student registration form">
+    <h1>REGISTRATION FORM</h1>
+    <img src="assets/img/about.jpg" class="img-responsive" width="5%" height="5%" alt="Setlink ICT Centre" align="center">
+    <p><i>Welcome to Setlink ICT Centre. Here we believe in unit. Through It together we achieve greater things.</i></i></p>
+
+    </div>
+<div class="details">
+    <form>
+        <h2>Fill in Your Personal Details</h2>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" placeholder="enter your first Name">
+        <label for="lname">Second Name</label>
+        <input type="text" id="lname" placeholder="Enter your Last name">
+        <label for="Oname">Other name</label>
+        <input type="text" id="Oname" placeholder="Enter your other name">
+
+        <label for="Male">Select Gender</label>
+
+        <label for="Male">Male</label>
+        <input type="radio" id="Male" name="Male">
+
+        <label for="Female">Female</label>
+        <input type="radio" id="Female" name="Male"><br><br>
+
+        <label for="other">Others</label>
+        <input type="radio" id="other" name="Male">
+
+
+        <label for="DOB">Date of Birth</label>
+        <input type="date" id="DOB">
+        <label for="Id">ID Number/Birth Certificate Entry No:</label>
+        <input type="number" id="Id" placeholder=" Enter your ID Birth Certificate Entry number"><br><br>
+
+        <label for="Single">Marital Status: Single</label>
+        <label for="Single"></label>
+       <input type="radio" id="Single" name="Single">
+
+        <label for="Marriade">Marriade</label>
+        <input type="radio" id="Marriade" name="Single">
+        <label for="Devorced">Devorced</label>
+        <input type="radio" id="Devorced" name="Single">
+
+        <label for="nsaid">I rather Not say It</label>
+        <input type="radio" id="nsaid" name="Single"><br><br>
+        <label for="HCouty">Home county</label>
+       <select name="Hcounty" id="HCouty">
+               <option value="Kakamega">Kakamega County</option>
+        <option value="Trans_Nzoia">Trans-Nzoia county</option>
+        <Option value="Nairobi">Nairobi County</Option>
+        <option value="Bungoma">Bungoma county</option>
+       </select>
+
+        <label for="Sub-County">Sub-County</label>
+        <select name="Sub-County" id="Sub-County">
+        <option value="Saboti">Saboti</option>
+            <option value="Kwanza">Kwanza</option>
+            <option value="Endebess">Endebess</option>
+            <option value="Kiminini">Kiminini</option>
+        </select>
+
+        <label for="Ward">Ward</label>
+        <select name="Ward" id="Ward">
+            <option value="Matisi">Matisi</option>
+            <option value="Wakape">Wakape</option>
+            <option value="Matungu">Matungu</option>
+            <option value="Lukhuna">Lukhuna</option>
+
+        </select>
+<label for="Area">Area of Residence</label>
+        <input type="text" id="Area" placeholder="Where do you reside"><br><br>
+
+<label for="Phone">Phone Number</label>
+        <input type="tel" id="Phone" placeholder="Enter your Personal phone number">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Your email address">
+<label for="Address">Permanent Address</label>
+        <input type="text" id="Address" placeholder="Enter your Home address"><br>
+        <h2>CHOOSE THE COURSES YOU ARE APPLYING.</h2>
+        <label for="Certificate">Certificate in Food and beverage</label>
+        <input type="checkbox" id="Certificate">
+        <label for="ICTCertificate">Certificate in ICT</label>
+        <input type="checkbox" id="ICTCertificate">
+        <label for="sytCertificate">Certificate in System Administration</label>
+        <input type="checkbox" id="sytCertificate">
+        <label for="Dipcfb">Diploma in Food and beverage</label><br><br>
+        <input type="checkbox" id="Dipcfb">
+        <label for="DipICT">Diploma in ICT</label>
+        <input type="checkbox" id="DipICT">
+        <label for="DipSyt">Diploma in System Administration</label>
+        <input type="checkbox" id="DipSyt">
+        <label for="DipECDE">Diploma in ECDE</label>
+        <input type="checkbox" id="DipECDE"><br>
+
+        <div class="Document">
+            <h3>Attachment</h3>
+            <p class="note"><b>Scan your academic documents as indicated below and upload. Your files should be less than 5mb</b></p>
+<label for="KCPE">KCPE Certificate</label>
+
+        <input class="Document" type="file" id="KCPE">
+        <label for="KCSE">KCSE</label>
+        <input type="file" id="KCSE">
+        <label for="Living">Other</label>
+        <input type="file" id="Living"><br><br>
+            <label for="NId">National ID</label>
+            <input type="file" id="NId">
+            <label for="BirthCert">Birth Certificate</label>
+            <input type="file" id="BirthCert">
+            <label for="Passport">Passport Photo</label>
+            <input type="file" id="Passport"><br><br>
+
+
+
+        <label for="Submit" >Click on Submit to submit your Application</label> <br>
+            <input type="submit" id="Submit" value="Click to Submit">
+
+            <!--<div class="SU"-->
+
+            <!--<div class="SU"-->
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+           </form>
+</div>
+
+
+
+</body>
+</html>
